@@ -25,4 +25,4 @@ function destructivelyDeleteFromObjectByKey(object, key) {
   return object;
 }
 
-destructivelyDleteObjectWithKeyAndValue(recipes, 'prop');
+destructivelyDeleteObjectWithKeyAndValue(recipes, 'prop');
