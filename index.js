@@ -21,8 +21,7 @@ function deleteFromObjectByKey(object, key) {
 }
 
 function destructivelyDeleteFromObjectByKey(object, key) {
-  delete recipes.prop;
-  var newObj = destructivelyDeleteFromObjectByKey(recipes, 'prop');
-  return newObj;
+  var recipes = destructivelyDeleteFromObjectByKey(recipes, 'prop');
+  return recipes;
 }
 
